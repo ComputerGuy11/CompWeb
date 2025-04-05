@@ -57,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/CompGuyWeb.loader.js";
+      var loaderUrl = buildUrl + "/CompWeb.loader.js";
       var config = {
-        dataUrl: buildUrl + "/CompGuyWeb.data.br",
-        frameworkUrl: buildUrl + "/CompGuyWeb.framework.js.br",
-        codeUrl: buildUrl + "/CompGuyWeb.wasm.br",
+        dataUrl: buildUrl + "/CompWeb.data",
+        frameworkUrl: buildUrl + "/CompWeb.framework.js",
+        codeUrl: buildUrl + "/CompWeb.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "GoofyGooberProductions",
         productName: "CompGuy",
-        productVersion: "0.06",
+        productVersion: "0.09",
         showBanner: unityShowBanner,
       };
 
@@ -84,6 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
+      canvas.style.background = "url('" + buildUrl + "/CompWeb.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
