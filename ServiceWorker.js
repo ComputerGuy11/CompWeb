@@ -1,9 +1,9 @@
 const cacheName = "GoofyGooberProductions-CompGuy-0.09";
 const contentToCache = [
-    "Build/compguyweb.loader.js",
-    "Build/compguyweb.framework.js",
-    "Build/compguyweb.data",
-    "Build/compguyweb.wasm",
+    "Build/CompWeb1.loader.js",
+    "Build/CompWeb1.framework.js",
+    "Build/CompWeb1.data",
+    "Build/CompWeb1.wasm",
     "TemplateData/style.css"
 
 ];
